@@ -59,6 +59,11 @@ css[omega-bootstrap.css][name] = Omega Bootstrap custom styles
 css[omega-bootstrap.css][description] = This file holds all the globally active custom CSS of your theme.
 css[omega-bootstrap.css][options][weight] = 10
 
+
+;css[jquery.bxslider.css][name] = Jquery BXSlider
+;css[jquery.bxslider.css][description] = This file holds styles of jquery slider.
+;css[jquery.bxslider.css][options][weight] = 10
+
 ; OPTIONAL LIBRARIES
 
 libraries[bootstrap][name] = 'Bootstrap'
@@ -69,6 +74,13 @@ libraries[bootstrap][css][0][options][weight] = 1
 libraries[bootstrap][css][1][options][weight] = 2
 libraries[bootstrap][js][0][file] = bootstrap.js
 libraries[bootstrap][js][0][options][weight] = -1
+
+;libraries[bxslider][name] = 'Jquery BXSlider'
+;libraries[bxslider][description] = 'jquery slider'
+;libraries[bxslider][js][0][file] = jquery.bxslider.min.js
+;libraries[bxslider][js][0][options][weight] = 1
+;libraries[bxslider][js][1][file] = script.js
+;libraries[bxslider][js][1][options][weight] = 1
 
 ; CSS GRID SYSTEMS
 

@@ -1,2 +1,47 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+#zone-footer-wrapper {
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+#footer_second {
+	padding: 8px 0;
+}
+
+#block-aggregator-feed-1 ul li{
+	list-style-type: none;
+	margin: 0 0 1.25em 0;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 10px;
+}
+
+#block-views-uslugi-anons-main-block .views-field-title {
+	font-size: 22px;
+}
+
+#block-views-uslugi-anons-main-block .views-field-view-node{
+	text-align: right;
+
+}
+
+#block-views-uslugi-anons-main-block .views-field-view-node .field-content{
+	background-color: #ccc;
+	border-radius: 5px;
+	padding: 5px;	
+}
+
+#block-views-uslugi-anons-main-block .views-field-view-node .field-content a {
+	color: #fefefe;
+}
+#block-views-uslugi-anons-main-block .views-field-view-node .field-content a:hover {
+	text-decoration: none;
+	color: #F0F0F0;
+}
+
+#block-views-uslugi-anons-main-block {
+	margin-top: 10px;
+}
