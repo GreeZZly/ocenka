@@ -45,3 +45,100 @@
 #block-views-uslugi-anons-main-block {
 	margin-top: 10px;
 }
+
+#page {
+	width: 980px;
+	margin: 40px auto;
+	box-shadow: 0 0 10px #ccc;
+	border-radius: 10px;
+}
+
+#header_menu div {
+	display: inline-block;
+	padding: 30px 10px;
+}
+
+#my_logo a{
+	padding: 20px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	display: block;
+}
+
+#my_logo a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#zone-menu-wrapper {
+	border-bottom: 1px solid #ccc;
+}
+#header_menu a {
+	color: #A9A7A7;
+}
+#header_menu a:hover {
+	color: #2D3133;
+	text-decoration: none;
+}
+.menu li{
+	display: inline-block;
+	padding: 20px 10px;
+
+}
+.menu .leaf {
+	padding-right: 0;
+	margin-right: 0;
+}
+.menu li:not(.last){
+
+}
+
+.menu {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li a {
+	color: #A9A7A7;
+}
+
+.menu li a:hover {
+	color: #2D3133;
+	text-decoration: none;
+}
+
+.menu .active {
+	color: black;
+}
+
+.views-content-counter {
+	background-color: black;
+	opacity: 0.5;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	/*visibility: hidden;*/
+	color: black;
+	opacity: 0.5;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.views-content-counter:hover {
+	background-color: #20A7D0;
+	opacity: 1;
+	color: #20A7D0;
+	text-align: center;
+}
+
+.views-slideshow-pager-field-item {     display: inline-block; }
+
+.views-slideshow-pager-fields .active .views-content-counter  {
+	background-color: #20A7D0;
+	opacity: 1;
+	color: #20A7D0;
+	text-align: center;
+}

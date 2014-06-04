@@ -22,6 +22,7 @@ regions[user_first] = User Bar First
 regions[user_second] = User Bar Second
 
 regions[branding] = Branding
+regions[logo_menu] = Logo Menu
 regions[menu] = Menu
 
 regions[sidebar_first] = Sidebar First
